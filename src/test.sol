@@ -1,13 +1,13 @@
-pragma solidity ^0.4.8;
+pragma solidity ^0.4.13;
 
 import "ds-test/test.sol";
 
 contract Test is DSTest {
     function test_basic_sanity() {
-        assert(true);
+        assertTrue(true);
     }
 
     function testFail_basic_sanity() {
-        assert(false);
+        assertTrue(false);
     }
 }
